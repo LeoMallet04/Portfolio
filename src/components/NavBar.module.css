@@ -1,0 +1,14 @@
+.NavBarBody{
+    background-image: linear-gradient(90deg,#5e0000 45%, #b10000 55%);
+    height: 50px;   
+    width: 100%;
+    border: 1px, solid, #FFFFFF;
+   
+}
+
+.NavBarContent{
+    display: flex;
+    flex-direction: column; 
+    align-items: end;
+    justify-content: center;  
+}
