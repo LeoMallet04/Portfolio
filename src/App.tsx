@@ -1,22 +1,31 @@
-import './components/NavBar.tsx'
+import './components/NavBar/NavBar.tsx'
 import './App.css'
-import NavBar from './components/NavBar.tsx';
-import Pessoa from './components/SayMyName.tsx';
+import NavBar from './components/NavBar/NavBar.tsx';
+import Topics from './components/Body/Topics.tsx';
+import FirstScreen from './components/Body/FirstScreen.tsx';
+import Line from './components/Body/Cogs/Line.tsx';
+import BlocList from './components/Body/Cogs/BlocList.tsx';
+import Bloc from './components/Body/Cogs/Bloc.tsx';
+
 
 function App() {
-  const name = 'João'
-  const age = 25
-  const profession = 'Psicólogo'
+  
   return (
-    
-
     <>
-       <NavBar />
-    <Pessoa
-    name={name} 
-    age={age} 
-    profession={profession}
-    />
+    <NavBar />
+    <FirstScreen />
+    <div className='bg-sections-color'>
+      <Topics title={"Sobre mim"} description={"BLABLABLABLABLABLABLABlABLABLA"} children={""} />
+      <Line></Line>
+      <Topics title={"Tecnologias "} description={""} >
+        <BlocList option={1}></BlocList>
+      </Topics>
+      <Line></Line>
+      <Topics title={"Projetos"} description={""} >
+        <BlocList option={2}></BlocList>
+      </Topics>
+    </div>
+    
     </>
   )
 }
