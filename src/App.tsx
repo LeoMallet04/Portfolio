@@ -1,3 +1,6 @@
+// React Server Components
+import * as motion from "framer-motion/client";
+
 import './components/NavBar/NavBar.tsx'
 import './App.css'
 import NavBar from './components/NavBar/NavBar.tsx';
@@ -12,6 +15,7 @@ function App() {
   
   return (
     <>
+   
     <NavBar />
     <FirstScreen />
     <div className='bg-sections-color'>

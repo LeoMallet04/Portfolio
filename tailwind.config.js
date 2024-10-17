@@ -10,6 +10,7 @@ export default {
         'sections-color': '#0F0000',
         'name-color': '#992A2A',
         'alternative-text-color': '#8F0505',
+        'bloc-color1': '#FFFFFF',
       }
     },
   },
