@@ -62,10 +62,10 @@ function Options(){
             style={{ pointerEvents: isOpen ? "auto" : "none" }}
           >
             <motion.li variants={itemsVariants}><button onClick={() => { window.open("https://wa.me/5551986027476")}}> <div className="flex flex-row"> 
-                <img className="h-6 w-6 mr-3" src="src/assets/WhatsAppWhite2.svg" alt="" />WhatsApp
+                <img className="h-6 w-6 mr-3" src="src/assets/NavBarIcons/WhatsAppWhite2.svg" alt="" />WhatsApp
               </div> </button> </motion.li>
             <motion.li variants={itemsVariants}><button onClick={() => { window.open("mailto:leonardoms.2010@hotmail.com?subject=Contato&body=Olá,%20gostaria%20de%20entrar%20em%20contato.")}}> <div className="flex flex-row"> 
-                <img className="h-6 w-6 mr-3" src="src/assets/EmailWhiteVF.svg" alt="" />Email
+                <img className="h-6 w-6 mr-3" src="src/assets/NavBarIcons/EmailWhiteVF.svg" alt="" />Email
               </div> </button></motion.li>
           </motion.ul>
         </motion.nav>

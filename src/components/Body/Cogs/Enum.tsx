@@ -8,7 +8,7 @@ enum descriptions{
     GIT = "Sistema de controle de versão distribuído para rastrear alterações em projetos e colaborar de forma eficiente.",
     React = "Biblioteca JavaScript para construção de interfaces de usuário, baseada em componentes e gerenciamento eficiente de estado.",
     Tailwind = "Framework CSS utilitário que facilita a criação de layouts personalizados diretamente no HTML.",
-    Flutter = "Flutter é um framework open-source do Google para desenvolvimento de aplicativos multiplataforma, permitindo criar interfaces nativas para Android, iOS, web e desktop a partir de um único código em Dart.",
+    Flutter = "Flutter é um framework open-source do Google para desenvolvimento de aplicativos multiplataforma, permitindo criar interfaces nativas para Android, iOS, web e desktop.",
     NodeJS = "Ambiente JavaScript de backend que permite a execução de código no servidor. Ideal para APIs e aplicações em tempo real.",
     Prisma = "ORM (Object-Relational Mapping) que facilita a interação com bancos de dados, automatizando queries complexas.",
     MongoDB = "Banco de dados NoSQL orientado a documentos, adequado para aplicações com grandes volumes de dados não estruturados.",

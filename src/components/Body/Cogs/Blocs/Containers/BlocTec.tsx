@@ -28,14 +28,15 @@ import { motion } from "framer-motion";
 // }
 
 // export default BlocTec;
-type currentPage = {
+type CurrentPage = {
     img_url: string;
     title: string;
     description: string;
+    isExpanded: boolean;
     
   }
 
-function BlocTec(props: {title: string, img_url: string, description: string, currentPage: currentPage, setCurrentPage: (page: currentPage) => void}){
+function BlocTec(props: {title: string, img_url: string, description: string, currentPage: CurrentPage, setCurrentPage: (page: CurrentPage) => void}){
    
     
     const parent = {
@@ -44,7 +45,7 @@ function BlocTec(props: {title: string, img_url: string, description: string, cu
     }
 
     function setPage(){
-        props.setCurrentPage({title: props.title, img_url: props.img_url, description: props.description })
+        props.setCurrentPage({title: props.title, img_url: props.img_url, description: props.description, isExpanded: true})
     }
 
     return(

@@ -18,6 +18,7 @@ type currentPage = {
   img_url: string;
   title: string;
   description: string;
+  isExpanded: boolean;
   
 }
 
@@ -26,14 +27,18 @@ function App() {
   const [currentPage, setCurrentPage] = useState<currentPage>({
     title: "",
     img_url: "", 
-    description: ""});
+    description: "",
+    isExpanded: false,
+  });
   
-  function renderPage(newTitle: string, newImgUrl: string, newDescription: string) {
+  function renderPage(newTitle: string, newImgUrl: string, newDescription: string){ {
     setCurrentPage({
       title: newTitle,
       img_url: newImgUrl,
       description: newDescription,
+      isExpanded: true,
     });
+  }
   } 
 
 
@@ -84,7 +89,7 @@ function App() {
               </>
             }
           />
-         <BlocTecVisual currentPage={currentPage}></BlocTecVisual>
+         <BlocTecVisual currentPage={currentPage} ></BlocTecVisual>
       </Topics>
       <Line></Line>
       <Topics title={"Projetos"} description={""} >
