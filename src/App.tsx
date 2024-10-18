@@ -59,7 +59,7 @@ function App() {
             children1={
               <>
                   
-                  <BlocTec title="HTML" img_url='src/assets/TecIcons/Html.svg' setCurrentPage={() => renderPage("HTML","./src/assets/TecIcons/Html.svg", descriptions.HTML)} currentPage={currentPage} description="" />
+                  <BlocTec title="HTML" img_url='src/assets/TecIcons/Html.svg' setCurrentPage={() => renderPage("HTML","src/assets/TecIcons/Html.svg", descriptions.HTML)} currentPage={currentPage} description="" />
                   <BlocTec title="CSS" img_url='src/assets/TecIcons/CSS.svg' setCurrentPage={() => renderPage("CSS","src/assets/TecIcons/CSS.svg",descriptions.CSS)} currentPage={currentPage} description=" " />
                   <BlocTec title="JAVA" img_url="src/assets/TecIcons/Java.svg" setCurrentPage={() => renderPage("JAVA","src/assets/TecIcons/Java.svg",descriptions.Java)} currentPage={currentPage} description=" " ></BlocTec>
                   <BlocTec title="JavaScript" img_url='src/assets/TecIcons/JavaScript.svg' setCurrentPage={() => renderPage("JavaScript","src/assets/TecIcons/JavaScript.svg", descriptions.JavaScript)} currentPage={currentPage} description=" " />
