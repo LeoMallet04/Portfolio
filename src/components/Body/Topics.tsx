@@ -29,7 +29,7 @@ function Topics(props: {title: string, description: string | null, children: any
             </h1>
 
             {props.description && (
-                <p className="pl-6 pt-5 text-left text-lg"> {props.description}</p>
+                <p className="pl-6 pt-5 text-left text-xl"> {props.description}</p>
             )}
             <div className="flex flex-row w-full justify-between">
                 {props.children}

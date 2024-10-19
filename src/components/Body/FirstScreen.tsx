@@ -6,6 +6,7 @@ function FirstScreen(){
             <h1 className="text-9xl font-bold text-name-color">Leonardo
             </h1>
             <h1 className="text-9xl font-bold pr-28 ">Scheidt</h1>
+            {/* <h1 className="text-xl font-bold text-gray-300 opacity-60 pr-80 pt-5">Front-End Developer</h1> */}
             </div>
             
             <div>
