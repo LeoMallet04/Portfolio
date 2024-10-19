@@ -59,33 +59,33 @@ function App() {
             children1={
               <>
                   
-                  <BlocTec title="HTML" img_url='src/assets/TecIcons/html.png' setCurrentPage={() => renderPage("HTML","src/assets/TecIcons/html.png", descriptions.HTML)} currentPage={currentPage} description="" />
-                  <BlocTec title="CSS" img_url='src/assets/TecIcons/css.png' setCurrentPage={() => renderPage("CSS","src/assets/TecIcons/css.png",descriptions.CSS)} currentPage={currentPage} description=" " />
-                  <BlocTec title="JAVA" img_url="src/assets/TecIcons/java.png" setCurrentPage={() => renderPage("JAVA","src/assets/TecIcons/java.png",descriptions.Java)} currentPage={currentPage} description=" " ></BlocTec>
-                  <BlocTec title="JavaScript" img_url='src/assets/TecIcons/javascript.png' setCurrentPage={() => renderPage("JavaScript","src/assets/TecIcons/javascript.png", descriptions.JavaScript)} currentPage={currentPage} description=" " />
-                  <BlocTec title="TypeScript" img_url="src/assets/TecIcons/typescript.png" setCurrentPage={() => renderPage("TypeScript","src/assets/TecIcons/typescript.png", descriptions.TypeScript)} currentPage={currentPage} description=" " ></BlocTec>
-                  <BlocTec title="GIT" img_url="src/assets/TecIcons/git.png" setCurrentPage={() => renderPage("Git","src/assets/TecIcons/git.png", descriptions.GIT)} currentPage={currentPage} description=" " ></BlocTec>
+                  <BlocTec title="HTML" img_url='src/assets/tecicons/html.png' setCurrentPage={() => renderPage("HTML","src/assets/tecicons/html.png", descriptions.HTML)} currentPage={currentPage} description="" />
+                  <BlocTec title="CSS" img_url='src/assets/tecicons/css.png' setCurrentPage={() => renderPage("CSS","src/assets/tecicons/css.png",descriptions.CSS)} currentPage={currentPage} description=" " />
+                  <BlocTec title="JAVA" img_url="src/assets/tecicons/java.png" setCurrentPage={() => renderPage("JAVA","src/assets/tecicons/java.png",descriptions.Java)} currentPage={currentPage} description=" " ></BlocTec>
+                  <BlocTec title="JavaScript" img_url='src/assets/tecicons/javascript.png' setCurrentPage={() => renderPage("JavaScript","src/assets/tecicons/javascript.png", descriptions.JavaScript)} currentPage={currentPage} description=" " />
+                  <BlocTec title="TypeScript" img_url="src/assets/tecicons/typescript.png" setCurrentPage={() => renderPage("TypeScript","src/assets/tecicons/typescript.png", descriptions.TypeScript)} currentPage={currentPage} description=" " ></BlocTec>
+                  <BlocTec title="GIT" img_url="src/assets/tecicons/git.png" setCurrentPage={() => renderPage("Git","src/assets/tecicons/git.png", descriptions.GIT)} currentPage={currentPage} description=" " ></BlocTec>
 
               </>
 }
             
             children2={
               <>
-                <BlocTec title="REACT" img_url="src/assets/TecIcons/react.png" setCurrentPage={() => renderPage("REACT","src/assets/TecIcons/react.png",descriptions.React)} currentPage={currentPage} description=" "  ></BlocTec>
-                <BlocTec title="TAILWIND" img_url="src/assets/TecIcons/tailwind.png" setCurrentPage={() => renderPage("TAILWIND","src/assets/TecIcons/tailwind.png", descriptions.Tailwind)} currentPage={currentPage} description=" " ></BlocTec>
-                <BlocTec title="FLUTTER" img_url="src/assets/TecIcons/flutter.png" setCurrentPage={() => renderPage("FLUTTER","src/assets/TecIcons/flutter.png", descriptions.Flutter)} currentPage={currentPage} description=" " ></BlocTec>
-                <BlocTec title="NODE.JS" img_url="src/assets/TecIcons/nodejs.png" setCurrentPage={() => renderPage("NODE.JS","src/assets/TecIcons/nodejs.png", descriptions.NodeJS)} currentPage={currentPage} description=" " ></BlocTec>
-                <BlocTec title="PRISMA" img_url="src/assets/TecIcons/prisma.png" setCurrentPage={() => renderPage("PRISMA","src/assets/TecIcons/prisma.png", descriptions.Prisma)} currentPage={currentPage} description=" " ></BlocTec>
-                <BlocTec title="MONGODB" img_url="src/assets/TecIcons/mongodb.png" setCurrentPage={() => renderPage("MONGODB","src/assets/TecIcons/mongodb.png", descriptions.MongoDB)} currentPage={currentPage} description=" " ></BlocTec>
+                <BlocTec title="REACT" img_url="src/assets/tecicons/react.png" setCurrentPage={() => renderPage("REACT","src/assets/tecicons/react.png",descriptions.React)} currentPage={currentPage} description=" "  ></BlocTec>
+                <BlocTec title="TAILWIND" img_url="src/assets/tecicons/tailwind.png" setCurrentPage={() => renderPage("TAILWIND","src/assets/tecicons/tailwind.png", descriptions.Tailwind)} currentPage={currentPage} description=" " ></BlocTec>
+                <BlocTec title="FLUTTER" img_url="src/assets/tecicons/flutter.png" setCurrentPage={() => renderPage("FLUTTER","src/assets/tecicons/flutter.png", descriptions.Flutter)} currentPage={currentPage} description=" " ></BlocTec>
+                <BlocTec title="NODE.JS" img_url="src/assets/tecicons/nodejs.png" setCurrentPage={() => renderPage("NODE.JS","src/assets/tecicons/nodejs.png", descriptions.NodeJS)} currentPage={currentPage} description=" " ></BlocTec>
+                <BlocTec title="PRISMA" img_url="src/assets/tecicons/prisma.png" setCurrentPage={() => renderPage("PRISMA","src/assets/tecicons/prisma.png", descriptions.Prisma)} currentPage={currentPage} description=" " ></BlocTec>
+                <BlocTec title="MONGODB" img_url="src/assets/tecicons/mongodb.png" setCurrentPage={() => renderPage("MONGODB","src/assets/tecicons/mongodb.png", descriptions.MongoDB)} currentPage={currentPage} description=" " ></BlocTec>
               </>
             }
             
             children3={
               <>
-                <BlocTec title="DOCKER" img_url="src/assets/TecIcons/docker.png" setCurrentPage={() => renderPage("DOCKER","src/assets/TecIcons/docker.png", descriptions.Docker)} currentPage={currentPage} description=" "  ></BlocTec>
-                <BlocTec title="POSTMAN" img_url="src/assets/TecIcons/postman.png" setCurrentPage={() => renderPage("POSTMAN","src/assets/TecIcons/postman.png",descriptions.Postman)} currentPage={currentPage} description=" "  ></BlocTec>
-                <BlocTec title="SPRINGBOOT" img_url="src/assets/TecIcons/springboot.png" setCurrentPage={() => renderPage("SPRINGBOOT","src/assets/TecIcons/springboot.png", descriptions.SpringBoot)} currentPage={currentPage} description=" "  ></BlocTec>
-                <BlocTec title="FIGMA" img_url="src/assets/TecIcons/figma.png"  setCurrentPage={() => renderPage("FIGMA","src/assets/TecIcons/figma.png", descriptions.Figma)} currentPage={currentPage} description=" " ></BlocTec> 
+                <BlocTec title="DOCKER" img_url="src/assets/tecicons/docker.png" setCurrentPage={() => renderPage("DOCKER","src/assets/tecicons/docker.png", descriptions.Docker)} currentPage={currentPage} description=" "  ></BlocTec>
+                <BlocTec title="POSTMAN" img_url="src/assets/tecicons/postman.png" setCurrentPage={() => renderPage("POSTMAN","src/assets/tecicons/postman.png",descriptions.Postman)} currentPage={currentPage} description=" "  ></BlocTec>
+                <BlocTec title="SPRINGBOOT" img_url="src/assets/tecicons/springboot.png" setCurrentPage={() => renderPage("SPRINGBOOT","src/assets/tecicons/springboot.png", descriptions.SpringBoot)} currentPage={currentPage} description=" "  ></BlocTec>
+                <BlocTec title="FIGMA" img_url="src/assets/tecicons/figma.png"  setCurrentPage={() => renderPage("FIGMA","src/assets/tecicons/figma.png", descriptions.Figma)} currentPage={currentPage} description=" " ></BlocTec> 
               </>
             }
           />
