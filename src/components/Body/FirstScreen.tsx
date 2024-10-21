@@ -14,7 +14,7 @@ function FirstScreen(){
             <h2 className="text-2xl pr-32 text-alternative-text-color font-semibold">problemas reais</h2>
             </div>
         </section>
-        <img src="src/assets/triangle.png" alt="Triangle" />
+        <img src="/assets/triang.png" alt="Triangle" />
         </>
         
     )
