@@ -50,11 +50,11 @@ function App() {
     <div className='bg-sections-color'>
       <br />
       <br />  
-      <Topics title={"Sobre mim"} description={descriptions.ABOUTME} children={""} />
+      <Topics title={"About me"} description={descriptions.ABOUTME} children={""} />
       <br />
       <br />
       <Line></Line>
-      <Topics title={"Tecnologias "} description={""} >
+      <Topics title={"Skills"} description={""} >
           <BlocTecList
             children1={
               <>
@@ -92,7 +92,7 @@ function App() {
          <BlocTecVisual currentPage={currentPage} ></BlocTecVisual>
       </Topics>
       <Line></Line>
-      <Topics title={"Projetos"} description={""} >
+      <Topics title={"Projects"} description={""} >
         <BlocProjectList></BlocProjectList>
       </Topics>
     </div>

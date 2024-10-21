@@ -25,7 +25,7 @@ function Options(){
             onClick={() => setIsOpen(!isOpen)}
             className="bg-black rounded-xl h-8 w-28 text-base mt-4 mx-3 font-bold"
           >
-            Contate-me
+            Contact 
             <motion.div
               variants={{
                 open: { rotate: 180 },

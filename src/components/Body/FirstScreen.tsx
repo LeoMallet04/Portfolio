@@ -10,8 +10,10 @@ function FirstScreen(){
             </div>
             
             <div>
-            <h2 className="text-2xl pl-2 font-semibold">Faço softwares que resolvem </h2>
-            <h2 className="text-2xl pr-32 text-alternative-text-color font-semibold">problemas reais</h2>
+            {/* Faço softwares que resolvem
+            problemas reais */}
+            <h2 className="text-2xl pl-2 font-semibold">I make software that solves </h2>
+            <h2 className="text-2xl pr-32 text-alternative-text-color font-semibold">real problems</h2>
             </div>
         </section>
         <img src="/assets/triang.png" alt="Triangle" />
