@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: column; 
     align-items: end;
+    margin-top: 13px;
+    margin-right: 5px;
 }
 
 
