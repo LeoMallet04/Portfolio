@@ -50,6 +50,7 @@ function App() {
     <div className='bg-sections-color'>
       <br />
       <br /> 
+      <br />
       <br /> 
       <br />
       <Topics title={"About me"} description={descriptions.ABOUTME} children={""} />
