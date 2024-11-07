@@ -49,7 +49,8 @@ function App() {
     <FirstScreen />
     <div className='bg-sections-color'>
       <br />
-      <br />  
+      <br /> 
+      <br /> 
       <Topics title={"About me"} description={descriptions.ABOUTME} children={""} />
       <br />
       <br />
