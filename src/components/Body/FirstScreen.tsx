@@ -16,7 +16,7 @@ function FirstSection(){
             <h2 className="text-2xl pr-36 pl-5 text-alternative-text-color font-semibold">your problems</h2>
             </div>
         </section>
-        <img className="max-w-full h-auto" src="/assets/triang.png" alt="Triangle"/>
+        <img className="max-w-max h-auto" src="/assets/triang.png" alt="Triangle"/>
         </>
 
         
