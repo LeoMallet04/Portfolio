@@ -48,7 +48,7 @@ function App() {
     <NavBar />
     <FirstScreen />
     <div className='bg-sections-color'>
-      <div className='h-36'></div>
+      <div className='h-32'></div>
       <Topics title={"About me"} description={descriptions.ABOUTME} children={""} />
       <div className='h-12'></div>
       <Line></Line>

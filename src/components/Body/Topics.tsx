@@ -23,7 +23,7 @@ function Topics(props: {title: string, description: string | null, children: any
         ref={ref} 
         initial={{ x: -100, opacity: 0 }} 
         animate={controls}>    
-            <section className="flex flex-col h-auto items-start p-14 pt-16">
+            <section className="flex flex-col h-auto items-start p-14 pt-36">
             <h1 className="text-4xl font-bold pl-5">
                 {props.title}
             </h1>
