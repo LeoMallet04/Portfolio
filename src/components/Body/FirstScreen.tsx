@@ -1,4 +1,4 @@
-function FirstScreen(){
+function FirstSection(){
     return (
         <>
         <section className="flex flex-row items-center justify-center pt-40">
@@ -16,10 +16,10 @@ function FirstScreen(){
             <h2 className="text-2xl pr-36 pl-5 text-alternative-text-color font-semibold">your problems</h2>
             </div>
         </section>
-        <img src="/assets/triang.png" alt="Triangle" />
+        <img className="max-w-full h-auto" src="/assets/triang.png" alt="Triangle"/>
         </>
         
     )
 }
 
-export default FirstScreen;
+export default FirstSection;
