@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 function Topics(props: {title: string, description: string | null, children: any}) {
         const controls: AnimationControls = useAnimation();
-        const {ref, inView } = useInView({ threshold: 0.1, rootMargin: '-150px 0px'});
+        const {ref, inView } = useInView({ threshold: 0.3, rootMargin: '-150px 0px'});
 
         useEffect(() => {
             if (inView) {
