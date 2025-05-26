@@ -17,7 +17,11 @@ function FirstSection(){
             </div>
         </section>
         <img className="max-w-full h-auto" src="/assets/triang.png" alt="Triangle"/>
+        <br />
+        <br />
+        <br />
         </>
+
         
     )
 }
