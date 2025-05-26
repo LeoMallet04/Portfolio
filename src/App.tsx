@@ -48,14 +48,9 @@ function App() {
     <NavBar />
     <FirstScreen />
     <div className='bg-sections-color'>
-      <br />
-      <br /> 
-      <br />
-      <br /> 
-      <br />
+      <div className='h-12'></div>
       <Topics title={"About me"} description={descriptions.ABOUTME} children={""} />
-      <br />
-      <br />
+      <div className='h-12'></div>
       <Line></Line>
       <Topics title={"Skills"} description={""} >
           <BlocTecList
