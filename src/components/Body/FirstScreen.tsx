@@ -18,7 +18,7 @@ function FirstSection(){
             </div>
             
         </section>
-        <img className="w-full max-w-max mx-auto h-auto" src="/assets/triang.png" alt="Triangle"/>
+        <img className="w-full h-full" src="/assets/triang.png" alt="Triangle"/>
         </div>
         </>
 
