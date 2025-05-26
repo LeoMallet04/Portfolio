@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 function Topics(props: {title: string, description: string | null, children: any}) {
         const controls: AnimationControls = useAnimation();
-        const {ref, inView } = useInView({ threshold: 0.1, rootMargin: '-100px 0px'});
+        const {ref, inView } = useInView({ threshold: 0.1, rootMargin: '-150px 0px'});
 
         useEffect(() => {
             if (inView) {
@@ -19,10 +19,11 @@ function Topics(props: {title: string, description: string | null, children: any
 
     return (
         <motion.div 
-        ref={ref} 
         initial={{ x: -150, opacity: 0 }} 
-        animate={controls}>    
-            <section className="flex flex-col h-auto items-start p-14 pt-36">
+        animate={controls}
+        >    
+        <div ref={ref} >
+        <section className="flex flex-col h-auto items-start p-14 pt-36">
             <h1 className="text-4xl font-bold pl-5">
                 {props.title}
             </h1>
@@ -35,6 +36,8 @@ function Topics(props: {title: string, description: string | null, children: any
             </div>
           
         </section>
+        </div>
+
         </motion.div>
         
     )
