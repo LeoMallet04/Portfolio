@@ -3,19 +3,18 @@ import { motion, useAnimation, AnimationControls } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 function Topics(props: {title: string, description: string | null, children: any}) {
-        var delay = 0.3;
         const controls: AnimationControls = useAnimation();
-        const {ref, inView } = useInView({ threshold: 0.1});
+        const {ref, inView } = useInView({ threshold: 0.1, rootMargin: '-100px 0px'});
 
         useEffect(() => {
             if (inView) {
               controls.start({
                 x: 0,
                 opacity: 1,
-                transition: { duration: 0.7, delay: delay },
+                transition: { duration: 0.7, delay: 0.3 },
               });
             }
-          }, [controls, inView, delay]);
+          }, [controls, inView, 0.3]);
     
 
     return (
