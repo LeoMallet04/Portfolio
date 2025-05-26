@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-type CurrentPage = {
+type CurrentBlock = {
     img_url: string;
     title: string;
     description: string;
@@ -7,7 +7,7 @@ type CurrentPage = {
     
   }
 
-function BlocTecVisual(props: {currentPage : CurrentPage}) {
+function BlocTecVisual(props: {currentBlock : CurrentBlock}) {
     const parent = {
         VariantA: {scale: 0},
         VariantB: {scale: 1}
@@ -16,20 +16,20 @@ function BlocTecVisual(props: {currentPage : CurrentPage}) {
     
     return (
         <motion.div
-        key = {props.currentPage.title}
+        key = {props.currentBlock.title}
         initial="VariantA"
-        animate={props.currentPage.isExpanded ? "VariantB" : "VariantA"}
+        animate={props.currentBlock.isExpanded ? "VariantB" : "VariantA"}
         variants={parent}
         >    
             <div className="h-[425px] w-[375px] bg-[linear-gradient(#FFFFFF_92%,_#9E0000_100%)] rounded-xl shadow-gray m-2 mr-32 mb-10 flex flex-col items-center justify-center">
             <div>
-                {props.currentPage.img_url && (
-                    <img className="h-[150px] w-[150px] mb-10" src={props.currentPage.img_url} alt={props.currentPage.title} />
+                {props.currentBlock.img_url && (
+                    <img className="h-[150px] w-[150px] mb-10" src={props.currentBlock.img_url} alt={props.currentBlock.title} />
                 )}
-                <h1 className="text-black font-bold">{props.currentPage.title}</h1>
+                <h1 className="text-black font-bold">{props.currentBlock.title}</h1>
             </div>
             
-            <p className="text-black font-semibold">{props.currentPage.description}</p>
+            <p className="text-black font-semibold">{props.currentBlock.description}</p>
         </div>
         </motion.div>
         
