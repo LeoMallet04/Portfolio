@@ -68,11 +68,7 @@ name = "actionlint"
 name = "eslint"
 version = "9.12.0"
 package_file = "package.json"
-package_filters = ["eslint-plugin-react",
-"eslient-plugin-react-hooks",
-"eslint-plugin-jsx-a11y",
-"@typescript-eslint/parser",
-"@typescript-eslint/eslint-plugin"]
+package_filters = ["eslint-plugin-react","eslient-plugin-react-hooks","eslint-plugin-jsx-a11y","@typescript-eslint/parser","@typescript-eslint/eslint-plugin"]
 
 [[plugin]]
 name = "osv-scanner"

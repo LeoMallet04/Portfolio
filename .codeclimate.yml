@@ -17,6 +17,7 @@ ratings:
   paths:
     - "**.js"
     - "**.ts"
+    - "**.tsx"
 exclude_patterns:
   - "node_modules/"
   - "dist/"
