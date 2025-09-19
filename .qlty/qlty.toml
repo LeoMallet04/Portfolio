@@ -105,8 +105,3 @@ drivers = [
   "config",
   "fs-vuln"
 ]
-
-[[plugin]]
-name = "fixme-comments"
-enabled = true
-
