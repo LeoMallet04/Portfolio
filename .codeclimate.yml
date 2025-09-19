@@ -12,6 +12,27 @@ plugins:
     enabled: true
   fixme:
     enabled: true
+  radarlint-js:
+    enabled: true
+  osv-scanner:
+    enabled: true
+    config:
+      ecosystem: "npm"
+      manifest_path: "package.json"
+      lockfile_path: "package-lock.json"
+      output_format: "json"
+      output_path: "osv-report.json"
+      severity_threshold: "HIGH"
+      ignore_unfixed: true
+  trivy:
+    enabled: true
+    config:
+      format: "json"
+      output: "trivy-report.json"
+      severity: "HIGH,CRITICAL"
+      exit_code: 1
+      vuln_type: "os,library"
+      ignore_unfixed: true
 
 ratings:
   paths:
