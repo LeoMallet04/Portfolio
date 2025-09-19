@@ -107,11 +107,6 @@ drivers = [
 ]
 
 [[plugin]]
-name = "duplication"
-enabled = true
-threshold = 20
-
-[[plugin]]
 name = "fixme"
 enabled = true
 

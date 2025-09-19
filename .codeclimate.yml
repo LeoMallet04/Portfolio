@@ -8,6 +8,8 @@ checks:
 plugins:
   eslint:
     enabled: true
+  duplication:
+    enabled: true
   fixme:
     enabled: true
   radarlint-js:
