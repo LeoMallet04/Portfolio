@@ -78,7 +78,7 @@ enabled = true
 
 [smells.duplication]
 enabled = true
-threshold = 20
+threshold = 15
 
 [[source]]
 name = "default"
@@ -107,6 +107,6 @@ drivers = [
 ]
 
 [[plugin]]
-name = "fixme"
+name = "fixme-comments"
 enabled = true
 
