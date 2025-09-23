@@ -10,8 +10,6 @@ plugins:
     enabled: true
   duplication:
     enabled: true
-  fixme:
-    enabled: true
   radarlint-js:
     enabled: true
   osv-scanner:
@@ -36,9 +34,9 @@ plugins:
 
 ratings:
   paths:
-    - "**.js"
-    - "**.ts"
-    - "**.tsx"
+    - "**/*.js"
+    - "**/*.ts"
+    - "**/*.tsx"
 exclude_patterns:
   - "node_modules/"
   - "dist/"
