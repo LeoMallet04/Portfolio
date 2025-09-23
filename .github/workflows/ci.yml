@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }} 
 
       - name: Instalar Qlty CLI
         run: |
@@ -25,4 +27,4 @@ jobs:
           echo "$HOME/.qlty/bin" >> $GITHUB_PATH
 
       - name: Rodar análise Qlty
-        run: qlty check -- --branch=${{ github.ref_name }}
+        run: qlty check
