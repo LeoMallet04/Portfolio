@@ -25,4 +25,4 @@ jobs:
           echo "$HOME/.qlty/bin" >> $GITHUB_PATH
 
       - name: Rodar análise Qlty
-        run: qlty check
+        run: qlty check --branch=${{ github.ref_name }}
