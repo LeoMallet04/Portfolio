@@ -8,6 +8,11 @@ import tseslint from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 
 export default [
+  js.configs.recommended,
+  react.configs.recommended,
+  tseslint.configs.recommended,
+  jsxA11y.configs.recommended,
+
   {
     ignores: ["dist", "node_modules"],
   },
@@ -50,12 +55,5 @@ export default [
         version: "detect",
       },
     },
-    extends: [
-      js.configs.recommended,
-      react.configs.recommended,
-      reactHooks.configs.recommended,
-      jsxA11y.configs.recommended,
-      tseslint.configs.recommended,
-    ],
   },
 ];
