@@ -88,8 +88,7 @@ default = true
 [[plugin]]
 name = "eslint"
 version = "9.12.0"
-package_file = "package.json"
-package_filters = ["eslint-plugin-react-hooks"]
+package_file = "package.json" 
 args = ["--config", "eslint.config.js"]
 
 
