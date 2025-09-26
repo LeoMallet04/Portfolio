@@ -1,3 +1,4 @@
+import js from "@eslint/js";
 import tsPlugin from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 import reactPlugin from "eslint-plugin-react";
@@ -24,10 +25,7 @@ export default [
       "jsx-a11y": jsxA11yPlugin,
     },
     rules: {
-      ...tsPlugin.configs.recommended.rules,
-      ...reactPlugin.configs.recommended.rules,
       ...reactHooksPlugin.configs.recommended.rules,
-      ...jsxA11yPlugin.configs.recommended.rules,
     },
     settings: {
       react: { version: "detect" },
