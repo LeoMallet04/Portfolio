@@ -78,7 +78,7 @@ enabled = true
 
 [smells.duplication]
 enabled = true
-threshold = 15
+threshold = 4
 
 [[source]]
 name = "default"
@@ -89,7 +89,7 @@ default = true
 name = "eslint"
 version = "9.12.0"
 package_file = "package.json"
-package_filters = ["eslint-plugin-react","eslint-plugin-react-hooks","eslint-plugin-jsx-a11y","@typescript-eslint/parser","@typescript-eslint/eslint-plugin"]
+package_filters = ["eslint-plugin-react-hooks"]
 args = ["--config", "eslint.config.js"]
 
 
