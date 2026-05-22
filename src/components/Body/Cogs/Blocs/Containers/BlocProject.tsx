@@ -15,6 +15,7 @@ function BlocProject(props: {img_url:string, link:string}){ {
         <button onClick= {() => window.open(props.link)}className="h-[275px] w-[325px] bg-bloc-color1 rounded-xl shadow-gray m-2"> 
             <img src={props.img_url} alt="" />
         </button>
+        <div></div>
         </motion.div>
     )
 }
