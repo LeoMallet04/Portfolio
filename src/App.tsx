@@ -89,7 +89,6 @@ function App() {
                 <BlocTec title="NODE.JS" img_url="/assets/tec/nodejs.png" setCurrentBlock={() => renderBlock("NODE.JS","/assets/tec/nodejs.png", selectedLanguage.NODEJS)} currentBlock={currentBlock} description=" " ></BlocTec>
                 <BlocTec title="PRISMA" img_url="/assets/tec/prisma.png" setCurrentBlock={() => renderBlock("PRISMA","/assets/tec/prisma.png", selectedLanguage.PRISMA)} currentBlock={currentBlock} description=" " ></BlocTec>
                 <BlocTec title="MONGODB" img_url="/assets/tec/mongodb.png" setCurrentBlock={() => renderBlock("MONGODB","/assets/tec/mongodb.png", selectedLanguage.MONGODB)} currentBlock={currentBlock} description=" " ></BlocTec>
-                  <div></div>
               </>
             }
             
