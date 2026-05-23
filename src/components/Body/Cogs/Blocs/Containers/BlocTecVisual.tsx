@@ -35,7 +35,6 @@ function BlocTecVisual(props: { currentBlock: CurrentBlock }) {
         <p className="text-black font-semibold">
           {props.currentBlock.description}
         </p>
-        <div></div>
       </div>
     </motion.div>
   );
