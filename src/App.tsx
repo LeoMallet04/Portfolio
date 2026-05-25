@@ -77,6 +77,7 @@ function App() {
                   <BlocTec title="JavaScript" img_url='/assets/tec/javascript.png' setCurrentBlock={() => renderBlock("JavaScript","/assets/tec/javascript.png", selectedLanguage.JAVASCRIPT)} currentBlock={currentBlock} description=" " />
                   <BlocTec title="TypeScript" img_url="/assets/tec/typescript.png" setCurrentBlock={() => renderBlock("TypeScript","/assets/tec/typescript.png", selectedLanguage.TYPESCRIPT)} currentBlock={currentBlock} description=" " ></BlocTec>
                   <BlocTec title="GIT" img_url="/assets/tec/git.png" setCurrentBlock={() => renderBlock("Git","/assets/tec/git.png", selectedLanguage.GIT)} currentBlock={currentBlock} description=" " ></BlocTec>
+                  <div></div>
               </>
 }
             
