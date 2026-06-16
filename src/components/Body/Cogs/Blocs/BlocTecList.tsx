@@ -10,7 +10,7 @@ function BlocTecList(props: {children1: any, children2: any, children3: any}){
             <ul className="flex flex-row pr-5 pl-5 pb-2">
                 {props.children3}
             </ul>
-
+            <div></div>
         </div>
     
     )
