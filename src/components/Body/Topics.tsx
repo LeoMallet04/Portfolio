@@ -34,6 +34,8 @@ function Topics(props: {title: string, description: string | null, children: any
             <div className="flex flex-row w-full justify-between">
                 {props.children}
             </div>
+
+            <div></div>
         </section>
         </div>
 
